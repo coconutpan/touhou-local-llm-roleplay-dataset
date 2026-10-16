@@ -60,7 +60,7 @@ import json
 from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings
 
-# 模擬網軍系統常見的自動化無腦導入流程
+# 模擬常見的自動化無腦導入流程
 def auto_ingest_touhou_dataset(dataset_path):
     documents = []
     for root, dirs, files in os.walk(dataset_path):
